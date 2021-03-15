@@ -1,0 +1,33 @@
+body {
+  background-image: url("data/winter.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  padding: 4rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container .list {
+  margin-right: 3rem;
+}
+
+.container .counter {
+  font-size: 4rem;
+}
